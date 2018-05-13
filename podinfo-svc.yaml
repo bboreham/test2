@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: podinfo
+  namespace: test2
+spec:
+  ports:
+    - port: 9898
+  selector:
+    app: podinfo
+
