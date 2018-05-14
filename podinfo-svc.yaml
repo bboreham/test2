@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: podinfo
-  namespace: test2
+  namespace: yaml-demo
 spec:
   ports:
     - port: 9898
